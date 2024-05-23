@@ -1,0 +1,47 @@
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-primary {
+    @apply bg-blue-500 text-white;
+}
+
+.btn-primary:hover {
+    @apply bg-blue-700;
+}
+
+.btn-danger {
+    @apply bg-red-500 text-white;
+}
+
+.btn-danger:hover {
+    @apply bg-red-700;
+}
+
+.btn-success {
+    @apply bg-green-500 text-white;
+}
+
+.btn-success:hover {
+    @apply bg-green-700;
+}
+
+.btn-secondary {
+    @apply bg-gray-500 text-white;
+}
+
+.btn-secondary:hover {
+    @apply bg-gray-700;
+}
+
+.btn-gradient {
+    @apply text-white bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500;
+}
+
+.btn-gradient:hover {
+    @apply from-indigo-600 via-pink-600 to-red-600
+}
+
+.btn-gradient:focus {
+    @apply outline-none;
+}
